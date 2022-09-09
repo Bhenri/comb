@@ -25,8 +25,6 @@ export default function App() {
     
 	  	<View style={styles.bloco}>
 		  <Text>Alcool</Text>
-			  <TextInput style={styles.input}
-				  value={alcool}
 				  onChangeText = {(valor)=>setAlcool(valor)}
 				  keyboardType="numeric"
 				/>
